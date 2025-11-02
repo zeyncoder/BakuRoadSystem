@@ -36,7 +36,6 @@ public class TrafficSystem {
         vehicles.add(new Bus("90-AA-222", 85, "GaraGarayev"));
         vehicles.add(new Truck("77-AA-333", 115, "Neftchilar"));
         vehicles.add(new EmergencyVehicle("99-AA-444", 150, "BabekStreet"));
-        vehicles.add(new KenaninMasini("99-HK-501",150,"BabekStreet"));
 
     }
 
@@ -70,10 +69,7 @@ public class TrafficSystem {
                 System.out.println(" Bu təcili yardım maşınıdır — qayda pozuntusu hesablanmır!");
                 continue;
             }
-            if (vehicle instanceof KenaninMasini) {
-                System.out.println("😎 Bu Kenanın maşınıdır — qırmızıda keçə bilər, cərimə yazılmır!");
-                continue;
-            }
+
 
             if (speed > road.getSpeedlimit()) {
                 addPenalty();
