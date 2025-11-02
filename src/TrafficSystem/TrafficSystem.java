@@ -37,6 +37,7 @@ public class TrafficSystem {
         vehicles.add(new Truck("77-AA-333", 115, "Neftchilar"));
         vehicles.add(new EmergencyVehicle("99-AA-444", 150, "BabekStreet"));
         vehicles.add(new KenaninMasini("99-HK-501",150,"BabekStreet"));
+        vehicles.add(new KenaninMasini("99-HK-501",150,"BabekStreet"));
 
     }
 
